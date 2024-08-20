@@ -1,0 +1,56 @@
+body, h1, h2 , p, ul, li{
+    margin: 0;
+    padding: 0; 
+ } 
+ body{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flexbox;
+    justify-content:center ;
+    max-height: max-content;
+
+ }
+ header{
+    background-color: cornsilk;
+ color: black;
+ padding: 1rem;
+ display: flex;
+justify-content:center ;
+ }
+ .image{
+   align-items: center;
+   height: 300px;
+ }
+ .sign{
+    text-align: center;
+    font-size:xx-large;
+    justify-content: space-evenly;
+    background-color: cornsilk;
+    display: flex;
+    padding:2rem;
+
+ }
+ .main{
+    padding: 4rem;
+    margin: 100px;
+    border: 25px black;
+    display: flex;
+    justify-content: center;
+ }
+ .signin{
+    display: flex;
+    justify-content:space-evenly;
+    font-size:large ;
+   
+ }
+ .back{
+    background-image: url("signin.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+ }
+ .front
+ {
+    background-image: url("front.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
